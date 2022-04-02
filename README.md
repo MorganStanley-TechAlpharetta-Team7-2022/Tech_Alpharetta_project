@@ -17,8 +17,8 @@ https://stackoverflow.com/questions/16512592/login-credentials-not-working-with-
 
 #### 4. To Run the Program on the local machine:
 
-cd django
-python manage.py runserver
+#####cd django
+#####python manage.py runserver
 
 #### 5. Create an admin role(you don't have to do this!): python manage.py createsuperuser --username admin --email
 
