@@ -13,7 +13,7 @@ from django.template.loader import render_to_string, get_template
 
 class HomeTemplateView(TemplateView):
     template_name = "index.html"
-    
+
     def post(self, request):
         name = request.POST.get("name")
         email = request.POST.get("email")
@@ -35,7 +35,7 @@ class AppointmentTemplateView(TemplateView):
 
     def post(self, request):
         fname = request.POST.get("fname")
-        lname = request.POST.get("fname")
+        lname = request.POST.get("lname")
         email = request.POST.get("email")
         mobile = request.POST.get("mobile")
         message = request.POST.get("request")
@@ -50,7 +50,7 @@ class AppointmentTemplateView(TemplateView):
 
         appointment.save()
 
-        messages.add_message(request, messages.SUCCESS, f"Thanks {fname} for making an appointment, we will email you ASAP!")
+        messages.add_message(request, messages.SUCCESS, f"{fname}, Thanksfor making an appointment, we will email you ASAP!")
         return HttpResponseRedirect(request.path)
 
 class ManageAppointmentTemplateView(ListView):
@@ -91,7 +91,7 @@ class ManageAppointmentTemplateView(ListView):
     def get_context_data(self,*args, **kwargs):
         context = super().get_context_data(*args, **kwargs)
         appointments = Appointment.objects.all()
-        context.update({   
+        context.update({
             "title":"Manage Appointments"
         })
         return context
