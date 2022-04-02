@@ -1,4 +1,5 @@
 # Tech_Alpharetta_project
+
 # Website Built With Bootstrap And Django
 
 #### 1. Make sure you have python3.9 and pip
@@ -14,7 +15,10 @@ EPASSWORD=your_email_password
 You will face this problem for sure, and here is how to solve it
 https://stackoverflow.com/questions/16512592/login-credentials-not-working-with-gmail-smtp
 
-#### 4. To Run the Program on the local machine: python manage.py runserver
+#### 4. To Run the Program on the local machine:
+
+cd django
+python manage.py runserver
 
 #### 5. Create an admin role(you don't have to do this!): python manage.py createsuperuser --username admin --email
 
