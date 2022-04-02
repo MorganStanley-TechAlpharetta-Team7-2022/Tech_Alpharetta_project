@@ -4,7 +4,7 @@
 
 #### 1. Make sure you have python3.9 and pip
 
-#### 2. Install all the dependencies/libraries: pip install -r requirement
+#### 2. Install all the dependencies/libraries: pip install -r requirements.txt
 
 #### 3. You have to add more stuffs to the .env file
 
