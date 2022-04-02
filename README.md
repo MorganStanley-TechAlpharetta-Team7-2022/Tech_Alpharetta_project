@@ -9,6 +9,7 @@
 #### 3. You have to add more stuffs to the .env file
 
 What do we add to the .env file(located under django)
+SK=django-insecure-7zi!nx(smfx$z(dx5)^-h@+j7&5d9to0g*=o-)#1e53z*=^l@y
 EADDRESS=your_email@gmail.com
 EPASSWORD=your_email_password
 
