@@ -20,7 +20,7 @@ class HomeTemplateView(TemplateView):
         message = request.POST.get("message")
 
         email = EmailMessage(
-            subject= f"{name} from doctor family.",
+            subject= f"{name} from Mentor4U.",
             body=message,
             from_email=settings.EMAIL_HOST_USER,
             to=[settings.EMAIL_HOST_USER],
