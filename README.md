@@ -1,6 +1,6 @@
 # Tech_Alpharetta_project
 
-# Website Built With Bootstrap And Django
+# Technical tool that can help mentors match with mentees with Bootstrap And Django
 
 #### 1. Make sure you have python3.9 and pip
 
