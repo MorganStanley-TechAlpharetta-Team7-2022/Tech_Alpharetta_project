@@ -33,4 +33,4 @@ Password: 123 <br>
 
 This is the https for the admin in our local machine: http://127.0.0.1:8000/admin <br>
 
-# [Reference](https://github.com/SelmiAbderrahim/Django-Doctor-Website)
+#### 6. Reference: https://github.com/SelmiAbderrahim/Django-Doctor-Website
